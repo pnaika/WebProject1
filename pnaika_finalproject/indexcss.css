@@ -1,0 +1,233 @@
+body{
+	width: auto;
+	height: auto;
+	opacity: 2;
+	position: absolute;
+	margin: auto;
+	padding: 20px;
+	left:0%;
+	right: 0%;
+	max-width: 100%;
+}
+body::after {
+	content: "";
+	width: auto;
+	height: auto;
+	background: url(files/miscphotos/hotcoffee3.jpg);
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+}
+#wrapper{
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+}
+header{
+	float:left;
+	font-family: 'Miltonian Tattoo', cursive;
+	width: 930px;
+	height:100px;	
+	padding: 0 15px 0 15px;
+	border-color: black;
+	text-shadow: 0 7em 7em silver;
+}
+h1, h2, h3, h4 {
+	font-family: 'Miltonian Tattoo', cursive;
+	font-weight: 700;
+}
+h1{
+	text-align: right;
+	text-shadow: .1em .1em silver;
+}
+h2{	
+	font-style: italic;	
+	color: red ;
+	font-weight: 500;
+	font-size: 54px;
+	text-shadow: -.08em -.13em .04em purple,
+				.08em .10em .02em white;
+	text-align: center;	
+}
+nav{
+	float: left;
+	width: 960px;
+	height: 30px;
+	margin: 30px 0px 30px 0px;
+}
+nav #nav-div{
+	width: 960px;
+	margin: 0 auto;
+}
+nav#main-nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav#main-nav ul a{
+	text-decoration: none;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: 600;
+	font-family: 'Cantarell', sans-serif;
+	color: black;
+	padding: 12px 15px 10px 10px;
+	display: block;
+	margin: 3px;
+}
+nav#main-nav ul li{
+	float: left;
+}
+nav#main-nav ul li a:hover{
+	color: navy;
+	background-color: rgb(160,82,45);
+	opacity: 0.7;
+}
+h3{
+	text-align: right;
+}
+ul.secnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 850px;
+	right: 10px;
+	text-align: right;
+	opacity: 0.8;
+}
+div#socialNetworking ul li a{
+	width: 40px;
+	height: 40px;
+	border-radius: 1.5em;
+	color: #fff;
+	transition-property: background-color, width, border-radius;
+	transition-duration: 1s, 3s, 2s;
+	width: 40px;
+	height: 40px;
+	-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+	box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+	-webkit-transition: -webkit-transform .3s ease-in-out;
+	transition: transform .3s ease-in-out; 
+}
+div#socialNetworking ul li a:hover img{
+	width:50px;
+	height: 50px;
+	background-color: red; 
+	border-radius: 0;
+	-webkit-box-shadow: 6px 6px 6px rgba(0,0,0,.3);
+	box-shadow: 6px 6px 6px rgba(0,0,0,.3);
+}
+article{
+	float: left;
+	width:760px;
+	margin-right: 10px;
+}
+article section #section1{
+	float: left;
+}
+article section{
+	float: left;
+	width:800px;
+	margin-bottom: 10px;
+	font-style: italic;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	padding: 0 15px 0 15px;
+	text-align: justify;
+}
+aside{
+	float: left;
+	width: 160px;
+	/*background-color: yellow;*/
+	margin-left: 10px;
+}
+img#product{
+	margin: 0px 20px 0px 0px;
+	float: left;
+	width: 150px;
+	height: 200px;
+}
+#footer{
+	clear:both;
+	width: 930px;
+	height: 100px;
+	padding: 0 15px 0 15px;
+	font-size: 17px;
+	font-weight: 700;	
+}
+pre{
+	float: left;
+	border-color: black;
+}
+#slider img{
+	margin: 10px;
+	padding: 10px;
+	opacity: 0.95;
+	-webkit-box-shadow: 8px 8px 8px blue;
+	box-shadow: 8px 8px 8px blue;
+	-moz-border-radius: 15px;
+	border-radius: 25px;
+}
+#slider img:hover,img:focus{
+	transform:scale(1.04) rotate(0deg) translate(20px,10px);
+}
+#subscribe{
+	text-align: right;
+	margin: 10px;
+	font-weight: 900;
+	font-size: 16px;
+	font-family: cursive;
+	font-style: italic;
+	opacity: 0.8px;
+}
+#header-container h1 {
+	position: absolute;
+	top: 40px;
+	left: 740px;
+	margin: 0;
+	font-family: 'Rock Salt', cursive;
+	text-shadow: .1em .1em silver;
+	font-size: 18px;
+}
+
+img.logo {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 85px;	
+}
+ul.secondary-nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+ul.secondary-nav li:before {
+	content: "|";
+}
+
+ul.secondary-nav li:first-child:before {
+	content: "";
+}
+
+ul.secondary-nav li {
+	float: left;
+}
+
+ul.secondary-nav li a {
+	color: red;
+	margin: 0 10px;
+}
+ul.secondary-nav li a:hover{
+	color: blue;
+}

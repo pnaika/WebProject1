@@ -1,0 +1,191 @@
+body{
+	background-image: url('files/coffee-icons.png');
+	width: auto;
+	height: auto;
+	opacity: 2;
+	position: absolute;
+	margin: auto;
+	padding: 20px;
+	left:10%;
+	max-width: 80%;
+}
+#wrapper{
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+}
+header{
+	float:left;
+	font-family: 'Miltonian Tattoo', cursive;
+	width: 930px;
+	height:100px;	
+	padding: 0 15px 0 15px;
+	border-color: black;
+	text-shadow: 0 7em 7em silver;
+}
+h1{
+	text-align: right;
+	text-shadow: .1em .1em silver;
+}
+h2{
+	font-family: 'Miltonian Tattoo', cursive;
+	color: red;
+	font-weight: 700;
+	font-size: 28px;
+	text-shadow: -.05em -.05em .05em purple,
+				.03em .03em .05em white;	
+}
+nav{
+	float: left;
+	width: 960px;
+	height: 30px;
+	margin: 30px 0px 30px 0px;
+}
+nav #nav-div{
+	width: 960px;
+	margin: 0 auto;
+}
+nav#main-nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav#main-nav ul a{
+	text-decoration: none;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	font-family: 'Cantarell', sans-serif;
+	color: black;
+	padding: 12px 15px 10px 0px;
+	display: block;
+	margin: 5px;
+}
+nav#main-nav ul li{
+	float: left;
+}
+nav#main-nav ul li a:hover{
+	background-color: gray;
+}
+h3{
+	text-align: right;
+}
+#socialNetworking ul li a:hover{
+}
+ul.secnav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 850px;
+	right: 10px;
+}
+article{
+	float: left;
+	width:760px;
+	margin-right: 10px;
+}
+article section #section1{
+	float: left;
+}
+article section{
+	float: left;
+	width:800px;
+	margin-bottom: 10px;
+	font-style: italic;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	padding: 0 15px 0 15px;
+	text-align: justify;
+}
+aside{
+	float: left;
+	width: 160px;
+	/*background-color: yellow;*/
+	margin-left: 10px;
+}
+img#product{
+	margin: 0px 20px 0px 0px;
+	float: left;
+	width: 150px;
+	height: 200px;
+}
+#footer{
+	clear:both;
+	width: 930px;
+	height: 100px;
+	padding: 0 15px 0 15px;
+	font-size: 17px;
+	font-weight: 700;	
+}
+pre{
+	float: left;
+	border-color: black;
+}
+h1, h2, h3, h4 {
+	font-family: 'Miltonian Tattoo', cursive;
+	font-weight: 700;
+}
+#map-canvas{
+	float: left;
+	width: 810px;
+	height: 150px;
+	padding: 10px;
+	margin: 10px;
+}
+#slider{
+	margin: 10px;
+	padding: 20px;
+}
+#subscribe{
+	text-align: right;
+	margin: 10px;
+	padding: 20px;
+	font-weight: 900;
+	font-size: 16px;
+	font-family: cursive;
+	font-style: italic;
+}
+#header-container h1 {
+	position: absolute;
+	top: 40px;
+	left: 740px;
+	margin: 0;
+	font-family: 'Rock Salt', cursive;
+	text-shadow: .1em .1em silver;
+	font-size: 18px;
+}
+
+img.logo {
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 70px;	
+}
+ul.secondary-nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: red;
+}
+
+ul.secondary-nav li:before {
+	content: "|";
+}
+
+ul.secondary-nav li:first-child:before {
+	content: "";
+}
+
+ul.secondary-nav li {
+	float: left;
+}
+
+ul.secondary-nav li a {
+	margin: 0 10px;
+}
